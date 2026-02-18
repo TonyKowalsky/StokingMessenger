@@ -1,0 +1,11 @@
+export { default as defaultAvatar } from "./icons/default-avatar.png";
+export { default as callIcon } from "./icons/call-icon.png";
+export { default as closeIcon } from "./icons/close-icon.png";
+export { default as sendIcon } from "./icons/send-icon.png";
+export { default as gifIcon } from "./icons/gif-icon.png";
+export { default as emojiIcon } from "./icons/emoji-icon.png";
+export { default as clipIcon } from "./icons/clip-icon.png";
+export { default as menuIcon } from "./icons/menu-icon.png";
+export { default as logoIcon } from "./icons/logo-icon.png";
+export { default as avatarIcon } from "./icons/avatar-icon.jpg";
+export { default as notificationSound } from "./sfx/notificationSound.mp3";

@@ -1,0 +1,32 @@
+.card {
+  width: 380px;
+  height: 380px;
+  min-width: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-regular);
+  box-shadow: 0 0 15px 0 rgba(77, 77, 77, 0.15);
+}
+
+.body {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+  height: 325px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (max-width: 428px) {
+  .card {
+    width: 320px;
+  }
+}

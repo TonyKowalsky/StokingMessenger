@@ -1,0 +1,45 @@
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  font-weight: var(--font-weight-medium);
+}
+
+.userInfo.sm {
+  flex-direction: row;
+}
+
+.userInfoText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInfoText.sm {
+  align-items: flex-start;
+}
+
+.name {
+  color: inherit;
+}
+
+.name.sm {
+  color: var(--color-white);
+}
+
+.position {
+  font-size: var(--font-size-md);
+  color: var(--color-gray);
+}
+
+.position.sm {
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+
+@media (max-width: 428px) {
+  .userInfo.sm {
+    font-size: var(--font-size-sm);
+  }
+}
