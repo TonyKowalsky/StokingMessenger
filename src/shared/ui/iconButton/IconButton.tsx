@@ -19,7 +19,7 @@ export const IconButton = forwardRef<
     <Tag
       onClick={onClick}
       className={className}
-      ref={ref as any}
+      ref={ref as React.Ref<HTMLButtonElement & HTMLAnchorElement>}
       href={href}
       aria-label={alt}
     >
